@@ -184,6 +184,7 @@ df_bar = pd.DataFrame(bar_data)
 
 # Initialize Dash app
 app = Dash(__name__)
+server=app.server
 
 # App layout
 app.layout = html.Div(children=[
